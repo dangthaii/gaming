@@ -8,7 +8,7 @@ function App() {
         lg: `"nav nav" "sidebar main"`,
       }}
     >
-      <GridItem area="nav" bg="coral">
+      <GridItem area="nav">
         <NavBar />
       </GridItem>
       <Show above="lg">
@@ -17,9 +17,7 @@ function App() {
         </GridItem>
       </Show>
 
-      <GridItem area="main" bg="pink">
-        main website
-      </GridItem>
+      <GridItem area="main">main website</GridItem>
     </Grid>
   );
 }
